@@ -1,4 +1,4 @@
-package com.example.idle_resource_detector;
+package com.example.idledetector;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
