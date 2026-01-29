@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: idle-resource-detector
+
+openshift:
+  api-url: ""
+  token: ""
+  namespace: ""
+  trust-certs: true
+
+detector:
+  cpu-threshold: 5.0
+  memory-threshold: 10.0
+  monitoring-days: 7
+  scan-cron: "0 0 2 * * ?"
+  enabled: true
+
